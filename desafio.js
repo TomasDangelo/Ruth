@@ -159,16 +159,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let finalizarcompra = document.querySelector("#finalizar_compra"); 
 finalizarcompra.addEventListener('click' , (e) =>{
-     carrito.length = 0 
-     actualizarCarrito()        
-    Swal.fire({
-    position: 'top',
-    icon: 'success',
-    title: 'Gracias por tu compra!!',
-    text: 'Podés buscar tu pedido en nuestra dirección',
-    showConfirmButton: false,
-    timer: 6000
-  })})
+    if (carrito.length > 0 ) {
+      carrito.length = 0 
+      actualizarCarrito()        
+      Swal.fire({
+      position: 'top',
+      icon: 'success',
+      title: 'Gracias por tu compra!!',
+      text: 'Podés buscar tu pedido en nuestra dirección',
+      showConfirmButton: false,
+      timer: 6000
+    })
+    }
+    })
 
 //La parte de propuestas especiales, aunque estéticamente es igual al resto (porque reutilicé sus clases), está inyectada desde
 // un array de objetos proveniente de un archivo .json que cree yo. 
