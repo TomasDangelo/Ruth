@@ -1,0 +1,9 @@
+[
+    {"nombre": "Propuesta Pascua", "precio": 2500, "id": 1, "descripcion": "Huevos de pascuca rellenos + rosca de pascua rellena" , "img": "./img/huevos-todos.jpg"},
+    {"nombre": "Propuesta día del padre", "precio": 2900, "id": 2, "descripcion": "Box de variedades dulces y saladas, con un mini champagne", "img": "./img/prop.jfif"},
+    {"nombre": "Propuestas para casamientos", "precio": 6500, "id": 3, "descripcion": "Tortas de casamiento personalizadas, contamos con variedad de propuestas", "img": "./img/torta-casamiento.jpeg"},
+    {"nombre": "Propuesta día de los novios", "precio": 2000, "id": 4, "descripcion": "Torta de corazones/Box variado/Torta personalizada"},
+    {"nombre": "Propuesta día de la madre", "precio": 2900, "id": 5, "descripcion": "Box variedad dulce y salado/Torta personalizada" },
+    {"nombre": "Propuesta Navidad", "precio": 3900, "id": 6, "descripcion": "Mesa dulce / Garrapiñadas / Tortas personalizadas" }
+]
+
